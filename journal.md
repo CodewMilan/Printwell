@@ -23,6 +23,8 @@ downloaded fusion 360 again
 opened it and forgot all the controls  
 rotated the view accidentally 500 times  
 **time spent:** 1 hr  
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/01cd43c5-5ca8-4049-af33-74dcc0dbd630" />
+
 
 ## June 9  
 day 4  
@@ -30,6 +32,8 @@ tried sketching a basic frame
 wasn’t sure what size to go with so just dropped some random 2020s  
 watched a teardown of a voron for inspo  
 **time spent:** 2 hrs  
+![image](https://github.com/user-attachments/assets/daca3f15-1c9a-4863-97d2-37c04e461131)
+
 
 ## June 10  
 day 5  
@@ -37,6 +41,10 @@ started properly designing the base in cad
 measured my desk to see how much space i actually have  
 settled on a 220x220 bed  
 **time spent:** 2 hrs  
+
+
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/f2fcf45b-69ec-40fb-871d-6c7f85ec4d6b" />
+
 
 ## June 11  
 day 6  
@@ -73,12 +81,18 @@ turns out my tolerance is completely off
 adjusted the cad a bit  
 **time spent:** 1.5 hrs  
 
+![image](https://github.com/user-attachments/assets/c34a0ab0-d4b9-4994-ac3c-90ea8b4a146c)
+
+
 ## June 16  
 day 11  
 fixed some extrusion alignments  
 added the z rails and placeholder lead screws  
 frame’s finally looking stable  
 **time spent:** 2 hrs  
+
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/31c11224-49e2-4133-a161-ba4e3602bbbb" />
+
 
 ## June 17  
 day 12  
