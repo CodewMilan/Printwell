@@ -182,10 +182,12 @@ final export of all 30+ STL files for slicing.
 decided i didn’t want to forget how scuffed this journey was.  
 writing markdown logs while fusion lags in the background.  
 **Time Spent: 1 Hour**
+![image](https://github.com/user-attachments/assets/02b1944d-0b0a-4319-8f0e-4e851b987e6c)
+
 
 ---
 
 **status update: it might work. or explode. but it looks real.**  
 printer is coming to life slowly, piece by piece.  
 it’s not done yet, but it’s got *soul*.  
-next phase: testing, tweakin
+
