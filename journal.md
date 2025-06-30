@@ -1,144 +1,191 @@
-# Core3D Build Journal  
+---
+title: "Milan's CoreXY Build Chaos Log"
+author: "Milan"
+description: "a cursed journey to building a 3d printer with vibes and sleepless CAD"
+created_at: "2025-06-30"
+---
 
-**total hours spent**  
-40 hrs  
+**Total Time Spent So Far: 40 Hours**
 
-## June 6  
-day 1  
-randomly googled “corexy vs cartesian”  
-ended up watching 3D printer motion system explainer vids for 2 hours straight  
-kinda got obsessed with how clean corexy looks  
-**time spent:** 1 hr  
-
-## June 7  
-day 2  
-browsed Reddit threads on budget builds  
-every comment had a different opinion  
-made a new folder called core3d and dumped like 50 screenshots  
-**time spent:** 1 hr  
-
-## June 8  
-day 3  
-downloaded fusion 360 again  
-opened it and forgot all the controls  
-rotated the view accidentally 500 times  
-**time spent:** 1 hr  
-<img width="551" alt="image" src="https://github.com/user-attachments/assets/01cd43c5-5ca8-4049-af33-74dcc0dbd630" />
+## **Log 1: CoreXY vs Cartesian Wars**
+googled “corexy vs cartesian” and watched videos for hours.  
+decided corexy looks cleaner and cooler so i'm doing that.  
+folder created: `CoreXY_Build`, and it now contains 40 screenshots and 2 memes.  
+**Time Spent: 2 Hours**  
+![model (1)](https://github.com/user-attachments/assets/73e23a4f-75a7-49e1-be8b-05aa226d2a9c)
 
 
-## June 9  
-day 4  
-tried sketching a basic frame  
-wasn’t sure what size to go with so just dropped some random 2020s  
-watched a teardown of a voron for inspo  
-**time spent:** 2 hrs  
-![image](https://github.com/user-attachments/assets/daca3f15-1c9a-4863-97d2-37c04e461131)
+---
+
+## **Log 2: Idlers Are a Scam**
+found out that idlers need to be aligned perfectly or the belts become noodles.  
+sketched something random in Fusion and tried placing 1 X Left_Idler_Mount.stl.  
+everything looked okay until i realized nothing was actually constrained.  
+**Time Spent: 2 Hours**  
+![model (2)](https://github.com/user-attachments/assets/44f252b3-18ac-42a3-bb7d-c2ca5932315f)
 
 
-## June 10  
-day 5  
-started properly designing the base in cad  
-measured my desk to see how much space i actually have  
-settled on a 220x220 bed  
-**time spent:** 2 hrs  
+---
+
+## **Log 3: Motor Mount Geometry is Black Magic**
+placed the A and B motor mounts and tried making them symmetrical.  
+fusion 360 said “nah.” had to redo half the sketch.  
+ended up with 2 different-looking mounts and prayed they’d work.  
+**Time Spent: 2 Hours**  
+![model (3)](https://github.com/user-attachments/assets/22a757b7-dcf3-4e42-9d28-8bd60aedcac0)
 
 
-<img width="382" alt="image" src="https://github.com/user-attachments/assets/f2fcf45b-69ec-40fb-871d-6c7f85ec4d6b" />
+---
+
+## **Log 4: Feet First**
+modeled the bottom feet and tested clearances.  
+realized my bed might scrape the PSU mount lol.  
+redesigned the feet like 4 times.  
+**Time Spent: 2 Hours**  
 
 
-## June 11  
-day 6  
-added placeholder steppers and some corner brackets  
-learned about belt routing and realized i was doing it all wrong  
-deleted half the sketch  
-**time spent:** 1.5 hrs  
+---
 
-## June 12  
-day 7  
-figured out the basic motor mount positions  
-x and y motors now chillin in the corners  
-no clue where the endstops are gonna go yet  
-**time spent:** 2 hrs  
-
-## June 13  
-day 8  
-woke up and instantly thought about belt tension  
-sketched up a basic gantry  
-kinda scuffed but works for now  
-**time spent:** 1.5 hrs  
-
-## June 14  
-day 9  
-deep dived into linear rails  
-mgn12 vs mgn9 still makes no sense  
-mocked up both just to compare  
-**time spent:** 2 hrs  
-
-## June 15  
-day 10  
-printed a sample part to test mounting holes  
-turns out my tolerance is completely off  
-adjusted the cad a bit  
-**time spent:** 1.5 hrs  
-
-![image](https://github.com/user-attachments/assets/c34a0ab0-d4b9-4994-ac3c-90ea8b4a146c)
+## **Log 5: Y-Carriage Confusion**
+started mocking up the y-carriage setup.  
+couldn’t tell which way was front anymore.  
+added dummy blocks for top and bottom.  
+**Time Spent: 2 Hours**  
+![model (4)](https://github.com/user-attachments/assets/39702db8-df68-468d-87aa-d0e14a8e906a)
 
 
-## June 16  
-day 11  
-fixed some extrusion alignments  
-added the z rails and placeholder lead screws  
-frame’s finally looking stable  
-**time spent:** 2 hrs  
+---
 
-<img width="346" alt="image" src="https://github.com/user-attachments/assets/31c11224-49e2-4133-a161-ba4e3602bbbb" />
+## **Log 6: The Guide Tube Mount**
+decided to add the filament guide path now instead of later.  
+made a custom part that looked weirdly like a flute.  
+**Time Spent: 1.5 Hours**  
 
 
-## June 17  
-day 12  
-redesigned the top plate to reduce weight  
-tried modeling belt path again and gave up halfway  
-it’s just spaghetti rn  
-**time spent:** 2 hrs  
+---
 
-## June 18  
-day 13  
-printed one bracket again with tighter tolerance  
-fits way better now  
-also added dummy idlers in the cad  
-**time spent:** 1.5 hrs  
+## **Log 7: The Endstop Slide Crisis**
+wanted to add endstops, forgot to plan their placement.  
+made a part called “endstop_slide” and it just floats there.  
+works in theory. not tested in the physical realm yet.  
+**Time Spent: 1.5 Hours**  
+![model (5)](https://github.com/user-attachments/assets/868ab17f-b00c-4399-80bb-eb491033797e)
 
-## June 19  
-day 14  
-got curious and made a simple BLTouch mount  
-no idea if i’ll actually use auto bed leveling but it looks cool  
-**time spent:** 2 hrs  
 
-## June 20  
-day 15  
-cleaned up the bom  
-removed all overpriced brand parts and added aliexpress dupes  
-saved like 150 bucks  
-**time spent:** 2 hrs  
+---
 
-## June 21  
-day 16  
-finalized frame dimensions  
-added screw holes and reinforcements  
-feels like it’s almost there  
-**time spent:** 2 hrs  
+## **Log 8: Z Motor Woes**
+figured out the z-motor position after too long.  
+used Right MK1 and Rear+Left combined motor mounts.  
+alignment was a pain but at least it looks clean now.  
+**Time Spent: 2 Hours**  
+![model (6)](https://github.com/user-attachments/assets/76529a65-0232-49e4-859a-ea032c200588)
 
-## June 22  
-day 17  
-sat down to fix the gantry for real  
-redesigned the x carriage to be lighter  
-printed a test again to check belt fit  
-**time spent:** 2 hrs  
 
-## June 23  
-day 18  
-final cleanup  
-organized everything into folders  
-exported the drawings for frame cuts  
-wrote this journal to not forget how long it took  
-**time spent:** 2 hrs  
+---
+
+## **Log 9: Power Inlet Engineering**
+added a slot for the power inlet, measured nothing, eyeballed everything.  
+made it fit using the "move body" tool 14 times.  
+**Time Spent: 1 Hour**  
+![model (7)](https://github.com/user-attachments/assets/e1aca87c-0aed-4390-8bca-65b80cdf5c71)
+
+
+---
+
+## **Log 10: Rear PSU Hopes**
+decided to go with a rear PSU mount setup.  
+modeled the rear PSU mount and started checking airflow paths.  
+**Time Spent: 2 Hours**  
+![model (8)](https://github.com/user-attachments/assets/3a9e3beb-1237-4e97-bb5a-5f915dc1b30c)
+
+
+---
+
+## **Log 11: Belt Path Madness**
+tried visualizing the belt loop path.  
+rotated gantry components 500 times.  
+added mock pulleys and tensioners (they float too).  
+**Time Spent: 2 Hours**  
+![model (9)](https://github.com/user-attachments/assets/70d2c5dd-6dc9-45e8-a3bf-68094b0e9fe6)
+
+
+---
+
+## **Log 12: X and Y Carriage Mesh**
+finally put together both x and y sides of the gantry.  
+printed test versions of left/right carriage tops.  
+**Time Spent: 2.5 Hours**  
+![model (10)](https://github.com/user-attachments/assets/955f4f6e-ddb8-4ee3-8802-be70fdef771e)
+
+
+---
+
+## **Log 13: Side PSU Mount Exists**
+added the side PSU mount. fits awkwardly but i’ll allow it.  
+debated moving it again but left it in for now.  
+**Time Spent: 1 Hour**  
+![model (11)](https://github.com/user-attachments/assets/8859920b-f578-4192-8dc5-ed922402ca79)
+
+
+---
+
+## **Log 14: Z Ledges Exist Now**
+designed supports to hold the bed plate—ledges for linear rails.  
+used 3 identical supports for symmetry.  
+**Time Spent: 1.5 Hours**  
+
+
+---
+
+## **Log 15: Bed Mount Bracket Bravery**
+modeled the bed brackets. printed left, right, and rear.  
+tweaked holes after first test didn’t align.  
+**Time Spent: 2 Hours**  
+
+---
+
+## **Log 16: Internal Cable Path Setup**
+ran pretend wires through fusion’s comment boxes.  
+figured out tube routing from extruder to hotend.  
+**Time Spent: 1 Hour**  
+
+
+---
+
+## **Log 17: Rear Mount Debugging**
+rear left motor mount was slightly off—fixed by mirroring.  
+also redesigned the rear top plate to match spacing.  
+**Time Spent: 2 Hours**  
+
+
+---
+
+## **Log 18: Final Folder Chaos**
+organized all STL files into named folders.  
+renamed half the files to actually make sense.  
+made render screenshots and a gif for the gram.  
+**Time Spent: 2 Hours**  
+
+
+---
+
+## **Log 19: Final STL Exports**
+cleaned up fusion timeline.  
+final export of all 30+ STL files for slicing.  
+**Time Spent: 1.5 Hours**  
+
+
+---
+
+## **Log 20: Writing This Log**
+decided i didn’t want to forget how scuffed this journey was.  
+writing markdown logs while fusion lags in the background.  
+**Time Spent: 1 Hour**
+
+---
+
+**status update: it might work. or explode. but it looks real.**  
+printer is coming to life slowly, piece by piece.  
+it’s not done yet, but it’s got *soul*.  
+next phase: testing, tweakin
