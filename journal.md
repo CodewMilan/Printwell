@@ -1,5 +1,5 @@
 ---
-title: "Milan's CoreXY Build Chaos Log"
+title: "Milan's CoreXY Build Log"
 author: "Milan"
 description: "a cursed journey to building a 3d printer with vibes and sleepless CAD"
 created_at: "2025-06-30"
